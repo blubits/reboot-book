@@ -15,13 +15,13 @@ The modules tackle all computer science concepts tackled in the NOI and the IOI.
 An overview of the motivations behind modeling and solving complex problems, along with the core competencies needed to analyze and code up solutions.
 
 * `ICS-00` Solving problems
-* `ICS-01` Anatomy of the competitive programming problem
+* `ICS-07` Modeling; overview of ADTs and data structures
 * `ICS-02` C++ refresher; parsing input
 * `ICS-03` Exploring the C++ STL
 * `ICS-04` Analysis of algorithms; searching
 * `ICS-05` Big O notation; sorting
 * `ICS-06` Recursion and memory management
-* `ICS-07` Modeling; overview of ADTs and data structures
+* `ICS-01` Anatomy of the competitive programming problem
 
 ### `01-LTD` Linear and Tree Data Structures
 

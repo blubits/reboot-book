@@ -1,0 +1,34 @@
+div.biglink {
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
+    border-bottom: 1px solid #DDD;
+}
+
+div.biglink:last-child {
+    border-bottom: none;
+}
+
+div.biglink-left {
+    margin: 1em;
+}
+
+i.biglink-left-icon {
+    font-size: 4em;
+}
+
+div.biglink-right {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    margin: 0 1em;
+}
+
+h2.biglink-right-header {
+    margin: 0 0 0.5em 0;
+    width: 100%;
+}
+
+p.biglink-right-description {
+    margin: auto 0;
+}

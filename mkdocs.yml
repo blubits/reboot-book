@@ -1,0 +1,43 @@
+# Site info
+site_name: Reboot Book
+site_description: A Pisay-oriented introduction to computer science and the study of informatics.
+site_author: Reboot
+site_url: https://reboot.blubits.me
+
+# Repository
+repo_name: 'blubits/reboot-book'
+repo_url: 'https://github.com/blubits/reboot-book'
+
+# Directory info
+docs_dir: 'book'
+site_dir: '@site'
+
+# Copyright
+copyright: 'Copyright &copy; 2018 Reboot'
+
+# Theme
+theme:
+    name: 'material'
+    palette:
+        primary: blue grey
+        accent: red
+    logo:
+        icon: 'code'
+    feature:
+        tabs: true
+extra_css:
+    - 'css/book.css'
+
+# Pages
+pages:
+    - Home: index.md
+    - Foreword:
+        - Home: foreword/index.md
+
+# Extensions
+markdown_extensions:
+    - admonition
+    - codehilite
+    - footnotes
+    - toc:
+        permalink: true
