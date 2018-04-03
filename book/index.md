@@ -2,8 +2,6 @@
 
 This is the homepage of Reboot's official online hub, serving as an introduction to the art and science behind computer science and problem solving. Feel free to look around!
 
-## What can I do?
-
 <div class="biglink">
     <div class="biglink-left">
         <i class="material-icons biglink-left-icon">insert_comment</i>
@@ -31,3 +29,5 @@ This is the homepage of Reboot's official online hub, serving as an introduction
         <p class="biglink-right-description"><em>For practice:</em> Read through the book's exercises.</p>
     </div>
 </div>
+
+## Course updates

@@ -32,7 +32,11 @@ extra_css:
 pages:
     - Home: index.md
     - Foreword:
-        - Home: foreword/index.md
+        - Introduction: foreword/intro.md
+        - Further reading: foreword/further-reading.md
+    - Module 1:
+        - Index: 00-ics/index.md
+        - (1.1) Solving problems: 00-ics/00-solving-problems.md
 
 # Extensions
 markdown_extensions:
@@ -41,3 +45,19 @@ markdown_extensions:
     - footnotes
     - toc:
         permalink: true
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
